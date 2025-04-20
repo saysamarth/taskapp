@@ -1,0 +1,90 @@
+[
+  {
+    "id": "predef-1",
+    "title": "Construction Site Safety Inspection",
+    "description": "Comprehensive daily construction site safety assessment checklist",
+    "fields": [
+      {
+        "id": "inspector_name",
+        "type": "text",
+        "label": "Inspector Name",
+        "required": true,
+        "hint": "Enter the full name of the inspector"
+      },
+      {
+        "id": "inspection_date",
+        "type": "date",
+        "label": "Inspection Date",
+        "required": true
+      },
+      {
+        "id": "hard_hat_check",
+        "type": "checkbox",
+        "label": "Hard hats being worn by all staff",
+        "required": true
+      },
+      {
+        "id": "electrical_safety",
+        "type": "radio",
+        "label": "Electrical Safety",
+        "required": true,
+        "options": ["Fully Compliant", "Minor Issues", "Major Issues - Action Required"]
+      },
+      {
+        "id": "corrective_actions",
+        "type": "textarea",
+        "label": "Corrective Actions",
+        "required": false,
+        "hint": "Detail any corrective actions needed or taken"
+      }
+    ],
+    "isPredefined": true
+  },
+  {
+    "id": "predef-2",
+    "title": "Fire Safety Inspection",
+    "description": "Monthly fire safety equipment and procedures inspection",
+    "fields": [
+      {
+        "id": "inspection_date",
+        "type": "date",
+        "label": "Inspection Date",
+        "required": true
+      },
+      {
+        "id": "floor_number",
+        "type": "text",
+        "label": "Floor/Area",
+        "required": true
+      },
+      {
+        "id": "extinguisher_check",
+        "type": "radio",
+        "label": "Fire Extinguishers Status",
+        "required": true,
+        "options": ["All Present & Operational", "Some Need Attention", "Critical Issues Found"]
+      },
+      {
+        "id": "extinguisher_access",
+        "type": "checkbox",
+        "label": "Access to extinguishers is unobstructed",
+        "required": true
+      },
+      {
+        "id": "sprinkler_system",
+        "type": "radio",
+        "label": "Sprinkler System Status",
+        "required": true,
+        "options": ["Fully Operational", "Needs Maintenance", "Not Operational", "Not Applicable"]
+      },
+      {
+        "id": "issues_noted",
+        "type": "textarea",
+        "label": "Issues Noted",
+        "required": false,
+        "hint": "Describe any issues that need to be addressed"
+      }
+    ],
+    "isPredefined": true
+  }
+  ]
